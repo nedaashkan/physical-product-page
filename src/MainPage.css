@@ -1,0 +1,56 @@
+.MainPage .blue-bg-img {
+  background-image: url("/public/background/blue-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.MainPage {
+  color: white;
+  background-color: black;
+}
+.collection-text {
+  font-size: 1rem;
+  text-align: end;
+}
+
+.list-box {
+  text-align: right;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+.list-box li {
+  font-size: 1.3rem;
+  color: gray;
+}
+.list-box li span {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.delivery-text-blue {
+  color: aqua;
+}
+.icon-img {
+  width: 5%;
+  height: 1em;
+}
+.delivery-text-grey {
+  color: gray;
+  text-align: right;
+}
+.add-cart-btn {
+  border: 1px solid aqua;
+  background-color: aqua;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.commentSection-box {
+  margin-top: 5em;
+}
+
+.FooterSection-box {
+  margin-top: 5em;
+}

@@ -16,8 +16,20 @@ export default function MainPage() {
             />
           </div>
 
-          <div className="row">
-            <h1>hi</h1>
+          <div className="row mt-5 mt-md-5 mt-lg-5 d-flex justify-content-center">
+            <div className="col-11 col-md-11 col-lg-11">
+              <div className="w-100 physical-product-info d-flex flex-column pt-lg-4">
+                <p className="physical-product-info-header">مشخصات فنی</p>
+                <div className="row d-flex justify-content-center">
+                  <div className="col-2 col-md-2 col-lg-1">
+                    <span>Title</span>
+                  </div>
+                  <div className="col-3 col-md-3 col-lg-10">
+                    <p>Description Description Description</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -31,7 +43,7 @@ export default function MainPage() {
             </div>
 
             <div className="col-12 col-md-12 col-lg-12 mt-lg-4 mt-md-4 mt-4">
-              <h4>Product Name Product Name</h4>
+              <h4 className="prodect-name-text">Product Name Product Name</h4>
               <span>
                 Product Description Product Description
                 <br /> Product Description

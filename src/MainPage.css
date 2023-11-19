@@ -2,10 +2,10 @@
   background-image: url("/public/background/blue-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 45%;
 }
 .MainPage {
-  color: white;
+  color: #e6e6e6;
   background-color: black;
 }
 .collection-text {
@@ -29,7 +29,7 @@
 }
 
 .delivery-text-blue {
-  color: aqua;
+  color: #00d5ff;
 }
 .icon-img {
   width: 5%;
@@ -53,4 +53,20 @@
 
 .FooterSection-box {
   margin-top: 5em;
+}
+.prodect-name-text {
+  color: #00d5ff;
+}
+
+.physical-product-info {
+  background-color: rgb(80, 74, 74);
+}
+
+.physical-product-info-header {
+  color: #e6e6e6;
+  text-align: center;
+}
+
+.physical-product-info {
+  color: #e6e6e6;
 }
